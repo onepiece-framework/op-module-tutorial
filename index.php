@@ -18,7 +18,7 @@ declare(strict_types=1);
  */
 namespace OP;
 
-/** Include
+/** Template
  *
  */
-include(__DIR__.'/Empty.class.php');
+echo OP::Template('index.phtml');
